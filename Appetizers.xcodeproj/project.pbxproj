@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		02C7242B2DB4D3DF0036AEFC /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7242A2DB4D3DF0036AEFC /* Appetizer.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		02C724112DB4CA290036AEFC /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C7242A2DB4D3DF0036AEFC /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		02C724082DB4CA290036AEFC = {
 			isa = PBXGroup;
 			children = (
+				02C7242A2DB4D3DF0036AEFC /* Appetizer.swift */,
 				02C724132DB4CA290036AEFC /* Appetizers */,
 				02C724122DB4CA290036AEFC /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02C7242B2DB4D3DF0036AEFC /* Appetizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
