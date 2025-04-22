@@ -10,6 +10,8 @@ import SwiftUI
 final class AppetizerListViewModel: ObservableObject {
     @Published var appetizers: [Appetizer] = []
     @Published var alertItem: AlertItem?
+    @Published var selectedAppetizer: Appetizer?
+    @Published var isShowingDetail = false
     
     func getAppetizers() {
         NetworkManager.shared.getAppetizers { result in
