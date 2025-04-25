@@ -17,6 +17,15 @@ struct StandardButtonStyle: ViewModifier {
     }
 }
 
+struct CellImageStyle: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+             .aspectRatio(contentMode: .fit)
+             .frame(width: 120, height: 90)
+             .cornerRadius(6)
+    }
+}
+
 extension View {
     func standardButtonStyle() -> some View {
         modifier(StandardButtonStyle())
